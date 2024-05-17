@@ -1,5 +1,14 @@
+import Inventory from "./pages/inventory";
+import Users from "./pages/users";
+
 const App = () => {
-    return <>Hello</>;
+    return (
+        <>
+            <Users />
+
+            <Inventory />
+        </>
+    );
 };
 
 export default App;
